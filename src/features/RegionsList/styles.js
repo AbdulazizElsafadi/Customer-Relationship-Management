@@ -4,7 +4,9 @@ const welcomeStyles = StyleSheet.create({
   container: {
     flex: 1,
     justifyContent: "center",
-    alignItems: "center",
+    alignItems: "stretch",
+    marginLeft: 20,
+    marginRight: 20,
   },
   button: {
     backgroundColor: "#14406e",
@@ -19,13 +21,14 @@ const welcomeStyles = StyleSheet.create({
     marginLeft: 10,
     marginRight: 10,
     marginBottom: 15,
-    fontSize: 16,
+    fontSize: 24,
     color: "#14406e",
     textAlign: "center",
     fontWeight: "bold",
   },
   text: {
     color: "white",
+    textAlign: "center",
   },
 });
 

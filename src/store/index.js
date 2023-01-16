@@ -9,7 +9,7 @@ const initializeStore = () => {
   const sagaMiddleware = createSagaMiddleware();
 
   const store = configureStore({
-    reducer: {},
+    reducer,
     middleware: [sagaMiddleware],
   });
 
